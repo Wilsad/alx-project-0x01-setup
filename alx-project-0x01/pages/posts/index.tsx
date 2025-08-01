@@ -1,7 +1,12 @@
-import React from 'react';
+import Header from '@/components/layout/Header';
 
 const PostsPage: React.FC = () => {
-  return <h1>All Posts</h1>;
+  return (
+    <div>
+      <Header />
+      <h1>All Posts</h1>
+    </div>
+  );
 };
 
 export default PostsPage;
